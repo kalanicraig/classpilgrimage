@@ -1,0 +1,30 @@
+---
+layout: page
+format: clues
+---
+
+{% if site.data.items %}
+{% assign allitems = site.data.items %}
+{% else %}
+{% assign allitems = site.items %}
+{% endif %}
+
+	<div class="large-12 cell">
+		<!--collection start-->
+
+		{{ content }}
+
+		<!--collection end-->
+	</div>
+</div>
+<div class="grid-container">
+	<div class="grid-x grid-padding-x align-center">
+	{% for item in allitems %}
+	{% include _cluebox.html index=forloop.index %}
+	{% endfor %}
+	</div>
+	</div>
+</div>
+
+
+

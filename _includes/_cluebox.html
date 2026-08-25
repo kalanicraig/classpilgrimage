@@ -1,0 +1,36 @@
+{% assign imgfile = item.img.file | default: item.img_file %}
+{% capture ItemPhotoResult %}{% if imgfile %}{% if imgfile contains 'https://' %}{{ imgfile }}{% else %}{{ site.baseurl }}/assets/items/{{ imgfile }}{% endif %}{% endif %}{% endcapture %}
+{% assign authorname = item.entryauthor.name | default: item.entryauthor_name %}
+{% assign authoraffiliation = item.entryauthor.affiliation | default: item.entryauthor_affiliation %}
+{% capture offsetclass %}{% cycle '', 'large-offset-2' %}{% endcapture %}
+<article class="cell large-10 {{ offsetclass }}">
+  <h3><a href="{{ site.baseurl }}{{ item.url }}">{{ include.index }}. {{ item.title }}</a></h3>
+  {% if authorname %}<p class="pilgrimage-author" style="font-size: 0.75rem; font-style: italic;">Author: {{ authorname }}{% if authoraffiliation %}, {{ authoraffiliation }}{% endif %}</p>{% endif %}
+  {{ item.shortdesc | markdownify }}
+<a class="button" target="_blank" href="{{item.mapurl}}">Open map location</a>
+<!-- <a class="button" target="_blank" href="https://www.google.com/maps/place/@{{item.lat}},{{item.ong}}/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d4{{item.lat}}!4d{{item.long}}?entry=ttu">Open map location</a>-->
+ <details class="pilgrimage-disclosure">
+	<summary>Need a location clue?</summary>
+	<div class="pilgrimage-disclosure__content">
+	{{ item.clue | markdownify }}
+	</div>
+ </details>
+ <details class="pilgrimage-disclosure">
+	<summary>The medieval parallel<!--: {{ item.medievalparalleltitle }}--></summary>
+	<div class="pilgrimage-disclosure__content">
+	<h4>{{ item.medievalparalleltitle }}</h4>
+	{% if ItemPhotoResult != empty %}<img src="{{ ItemPhotoResult }}" alt="">{% endif %}
+	{{ item.medievalparallel | markdownify }}
+	{% if item.medievalmapurl %}<a class="button" target="_blank" href="{{ item.medievalmapurl }}">Open medieval map location</a>{% endif %}
+	</div>
+ </details>
+ {% if item.learnmore %}
+<!-- <details class="pilgrimage-disclosure">
+	<summary>Learn more near you</summary>
+	<div class="pilgrimage-disclosure__content">
+	{{ item.learnmore | markdownify }}
+	</div>
+ </details>-->
+ {% endif %}
+</article>
+

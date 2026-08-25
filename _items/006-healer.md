@@ -2,9 +2,9 @@
 layout: pilgrimage
 title: "Visit a famous healer"
 categories: [ Western Europe, 6th century ]
-mapurl: "https://www.google.com/maps/place/39°10'18.4%22N+86°30'53.5%22W/@39.168475,-86.5190231,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xa3a707413680b6ab!8m2!3d39.1684755!4d-86.5170528!3m4!1s0x0:0xa3a707413680b6ab!8m2!3d39.1684755!4d-86.5170528"
-clue: "Find me at the IU Health Center's drive-in gate."
-shortdesc: "The IU community flocks here for the laying on of hands. Holy men and women here cure minor chronic illnesses like fevers and joint pain as well as acute illnesses and serious injuries, but it’s uphill both ways and you have to get past the keeper of the shrine first."
+mapurl: "https://www.google.com/maps/place/40°06'09.9%22N+88°13'11.8%22W/@40.1027481,-88.2225159,724m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d40.102744!4d-88.219941?entry=ttu"
+clue: "Find me where students go to get doctor's notes for class when they don't have a doctor off campus."
+shortdesc: "The student community flocks here for the laying on of hands. Holy men and women cure minor chronic illnesses like fevers and joint pain as well as acute illnesses and serious injuries, but it’s quite a hike and you have to get past the keeper of the shrine first."
 lat: "39.1717635"
 long: "-86.5148642"
 medievalparallel: >

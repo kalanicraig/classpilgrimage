@@ -2,10 +2,10 @@
 layout: pilgrimage
 title: "Seek a Wise Counselor"
 categories: [ Eastern Mediterranean, 6th century ]
-mapurl: "https://www.google.com/maps/place/39°10'13.1%22N+86°31'02.5%22W/@39.1703009,-86.5173569,17z/data=!3m1!4b1!4m4!3m3!8m2!3d39.1703009!4d-86.5173569"
-clue: "Find me in GISB 1028"
+mapurl: "https://www.google.com/maps/place/40°06'20.4%22N+88°13'41.7%22W/@40.1056791,-88.2308183,762m/data=!3m2!1e3!4b1!4m10!1m5!3m4!2zNDDCsDA1JzM2LjciTiA4OMKwMTMnMDIuNiJX!8m2!3d40.0935278!4d-88.2173889!3m3!8m2!3d40.105675!4d-88.228238"
+clue: "Find me between Lincoln Hall and the Main Library"
 shortdesc: >
-    IU students seek wisdom from people most often trained in the studia humanitatis (i.e. humanities). Such counselors offer advice on the wisdom amd what classes to take and what subjects to explore, can be found all across campus. Seek the most wise counsel for Medieval Studies in the 28th room of the first floor in a shimmering building, made of equal parts glass and stone, near the limestone monolith at the top of the highest hill.
+    Students seek wisdom from people well trained in the *studia humanitatis* (the humanities). Such counselors can offer guidance as students explore new subjects and interesting classes. A single building contains two of these esteemeed  counselors, one for Medieval Studies in the three hundred and fourteenth room and one for history in the three hundred and ninth room.
 lat: "39.1703009"
 long: "-86.5173569"
 medievalparalleltitle: "John Moschos' _Spiritual Meadow_"
