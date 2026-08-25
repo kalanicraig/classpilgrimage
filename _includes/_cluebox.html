@@ -7,12 +7,12 @@
   <h3><a href="{{ site.baseurl }}{{ item.url }}">{{ include.index }}. {{ item.title }}</a></h3>
   {% if authorname %}<p class="pilgrimage-author" style="font-size: 0.75rem; font-style: italic;">Author: {{ authorname }}{% if authoraffiliation %}, {{ authoraffiliation }}{% endif %}</p>{% endif %}
   {{ item.shortdesc | markdownify }}
-<a class="button" target="_blank" href="{{item.mapurl}}">Open map location</a>
-<!-- <a class="button" target="_blank" href="https://www.google.com/maps/place/@{{item.lat}},{{item.ong}}/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d4{{item.lat}}!4d{{item.long}}?entry=ttu">Open map location</a>-->
  <details class="pilgrimage-disclosure">
 	<summary>Need a location clue?</summary>
 	<div class="pilgrimage-disclosure__content">
 	{{ item.clue | markdownify }}
+<a class="button" target="_blank" href="{{item.mapurl}}">Open map location</a>
+<!-- <a class="button" target="_blank" href="https://www.google.com/maps/place/@{{item.lat}},{{item.ong}}/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d4{{item.lat}}!4d{{item.long}}?entry=ttu">Open map location</a>-->
 	</div>
  </details>
  <details class="pilgrimage-disclosure">
