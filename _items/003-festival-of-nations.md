@@ -22,5 +22,8 @@ medievallat: 38.6550643
 medievallong: -90.0640115
 img: https://upload.wikimedia.org/wikipedia/commons/f/f5/Cahokia_winter_solstice_sunrise_over_Fox_Mound_HRoe_2017sm.jpg
 imgcredit: Cahokia winter solstice sunrise over Fox Mound and the Cahokia Woodhenge ca. 1000 AD. Artist's concept. (Herb Rose)
+entryauthor:
+  name: "Sean Purcell and Kalani Craig"
+  affiliation: "University of California San Francisco Libraries; Department of History, University of Illinois Urbana-Champaign"
 creationdate: 2026-01-29
 ---

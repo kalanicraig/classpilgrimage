@@ -20,5 +20,8 @@ img:
   credit: |
     Shrine of St. Martin of Tours, Parsifall, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
   source: https://commons.wikimedia.org/wiki/File:Tours,_Saint_Martin.JPG
+entryauthor:
+  name: "Kalani Craig"
+  affiliation: "Department of History, University of Illinois Urbana-Champaign"
 creationdate: 2026-01-29
 ---
